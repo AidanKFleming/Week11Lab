@@ -35,11 +35,11 @@ INSERT INTO `role` VALUES (1, 'system admin');
 INSERT INTO `role` VALUES (2, 'regular user');
 
 INSERT INTO `user` (`email`,`active`,`first_name`,`last_name`,`password`,`role`)
-	VALUES ('cprg352+admin@gmail.com', true, 'Admin','Admin', 'password', 1);
+	VALUES ('aidanflemSAIT+admin@gmail.com', true, 'Admin','Admin', 'password', 1);
 INSERT INTO `user` (`email`,`active`,`first_name`,`last_name`,`password`,`role`)
-	VALUES ('cprg352+anne@gmail.com', true, 'Anne','Annerson', 'password', 2);
+	VALUES ('aidanflemSAIT+anne@gmail.com', true, 'Anne','Annerson', 'password', 2);
 INSERT INTO `user` (`email`,`active`,`first_name`,`last_name`,`password`,`role`)
-	VALUES ('cprg352+barb@gmail.com', true, 'Barb','Barber', 'password', 2);
+	VALUES ('aidanflemSAIT+barb@gmail.com', true, 'Barb','Barber', 'password', 2);
 
 INSERT INTO `note` (`Title`, `Contents`, `Owner`)
     VALUES ('Quote #1', 'Writing is nature''s way of letting you know how sloppy your thinking is.', 'cprg352+anne@gmail.com');
